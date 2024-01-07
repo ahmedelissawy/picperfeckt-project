@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>PicPerfekt Login</title>
+</head>
+<body>
+    <div class="login-container">
+        <h1>PicPerfekt</h1>
+        <img src="logo.png" alt="Instagram Logo" class="instagram-logo">
+        <form id="loginForm">
+            <table>
+                <tr>
+                  <th><label for="fname">first Name</label></th>
+                  <th><input type="text" id="fname" name="firstname" required></th>
+                </tr>
+                <tr>
+                  <td><label for="lname">Last Name</label></td>
+                  <td><input type="text" id="lname" name="lastname" required></td>
+                </tr>
+                <tr>
+                  <td><label for="uname">User Name</label></td>
+                  <td><input type="text" id="uname" name="uname" require></td>
+                </tr>
+                <tr>
+                    <td><label for="date">Birth Date</label></td>
+                    <td><input type="date" id="date" name="date" required></td>
+                </tr>
+                <tr>
+                    <td><label for="gmail">Gmail</label></td>
+                    <td><input type="text" id="gmail" name="gmail" required></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password</label></td>
+                    <td><input type="password" id="password" name="password" required></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><button type="button" onclick="createaccount()">Create Account</button></td>
+                </tr>
+              </table>
+
+        </form>
+    </div>
+    <script src="createaccount.js"></script>
+</body>
+</html>

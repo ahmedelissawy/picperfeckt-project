@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to top, #0c2461, #3498db, #ffffff); /* Darker blue to white gradient from bottom to top */
+}
+
+
+
+.login-container {
+    text-align: center;
+    padding: 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2em;
+    color: #3897f0;
+}
+.instagram-logo {
+    margin-top: 10px; /* Adjust the margin as needed */
+    width: 70px; /* Adjust the width as needed */
+    height: 60px; /* Adjust the height as needed */
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px;
+    background-color: #3897f0;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}

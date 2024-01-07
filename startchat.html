@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Start Chat</title>
+    <link rel="stylesheet" ="text/css" href="startchat.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><div class="log-con"><img src="logo.png" alt="Instagram Logo" class="PicPerfekt-logo" /></div><div><a href="#">PicPerfekt</a></div></li>
+                <li><input type="text" placeholder="Search.."></li>
+                <li><a href="#" onclick="home()">Home</a></li>
+                <li><a href="#" onclick="explore()">Explore</a></li>
+                <li><a href="#"onclick="addpost()">Add post</a></li>
+                <li><a href="#" onclick="startchat()">Start Chat</a></li>
+                <li><a href="#" onclick="notification()">Notification</a></li>
+                <li><a href="#" onclick="profile()">Profile</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>Start a Chat</h2>
+        </div>
+        <div class="chat-content">
+            <ul id="chat-list">
+                <!-- chat list will be populated here -->
+            </ul>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="chat-message" placeholder="Type your message here...">
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+    <script src="startchat.js"></script>
+</body>
+</html>

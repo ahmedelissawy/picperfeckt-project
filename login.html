@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>PicPerfekt Login</title>
+</head>
+<body>
+    <div class="login-container">
+        <h1>PicPerfekt</h1>
+        <img src="logo.png" alt="Instagram Logo" class="instagram-logo">
+        <form id="loginForm">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="button" onclick="login()">Login</button>
+            <button type="button" onclick="signup()">Create Account</button>
+        </form>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
